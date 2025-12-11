@@ -27,6 +27,6 @@ public class StudentDetails {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
         System.out.println("Semester: " + sem);
-        System.out.println("CGPA: " + cgpa);
+        System.out.println("SGPA: " + sgpa);
     }
 }
