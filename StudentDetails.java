@@ -7,35 +7,26 @@ public class StudentDetails {
 
         int id;
         String name;
-        int sem;
-        double sgpa;
+        String sem;
+        double cgpa;
 
         System.out.print("Enter Student ID: ");
         id = sc.nextInt();
-        sc.nextLine();  // Clear buffer
+        sc.nextLine();  
 
         System.out.print("Enter Student Name: ");
         name = sc.nextLine();
 
-        // Accept only 1st year even semester (Semester 2)
-        while (true) {
-            System.out.print("Enter Semester (Only 2nd Sem allowed): ");
-            sem = sc.nextInt();
+        System.out.print("Enter Semester: ");
+        sem = sc.nextLine();
 
-            if (sem == 2) {
-                break; // Valid semester
-            } else {
-                System.out.println("❌ Invalid! 1st year even sem = Semester 2 only. Try again.");
-            }
-        }
-
-        System.out.print("Enter SGPA: ");
-        sgpa = sc.nextDouble();
+        System.out.print("Enter CGPA: ");
+        cgpa = sc.nextDouble();
 
         System.out.println("\n--- Student Details ---");
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
-        System.out.println("Semester: " + sem + " (1st Year Even Sem)");
-        System.out.println("SGPA: " + sgpa);
+        System.out.println("Semester: " + sem);
+        System.out.println("CGPA: " + cgpa);
     }
 }
