@@ -8,7 +8,7 @@ public class StudentDetails {
         int id;
         String name;
         String sem;
-        double cgpa;
+        double sgpa;
 
         System.out.print("Enter Student ID: ");
         id = sc.nextInt();
