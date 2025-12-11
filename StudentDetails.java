@@ -17,10 +17,10 @@ public class StudentDetails {
         System.out.print("Enter Student Name: ");
         name = sc.nextLine();
 
-        System.out.print("Enter Semester: ");
+        System.out.print("Enter Semester(even or odd): ");
         sem = sc.nextLine();
 
-        System.out.print("Enter CGPA: ");
+        System.out.print("Enter SGPA: ");
         cgpa = sc.nextDouble();
 
         System.out.println("\n--- Student Details ---");
